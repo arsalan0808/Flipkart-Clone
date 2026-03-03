@@ -93,13 +93,13 @@ export default function ProductsByCat({getRandomOriginalPriceOfThreeDigits}) {
               <div className=" h-[420px] w-80 border border-gray-300  shadow-md p-4 hover:shadow-lg transition-shadow duration-300 flex flex-col items-center justify-center text-center ">
                  {/* flipkart product top left heart icon */}
                 <div className="w-full flex justify-end">
-                  <img src="/public/hearts.png" alt="wishlist" className="w-5 h-5 opacity-50 hover:opacity-100 transition-opacity duration-300 cursor-pointer" />
+                  <img src="/hearts.png" alt="wishlist" className="w-5 h-5 opacity-50 hover:opacity-100 transition-opacity duration-300 cursor-pointer" />
                 </div>
                 <img className="w-full h-64 object-contain mb-2" src={product.image} alt={product.title} />
                 <p className="font-semibold sm:text-xs">Name : {product.title}</p>
                 <p className=" font-semibold sm:text-xs"> Original Price : <span className="font-normal inline text-gray-700 line-through">$ {getRandomOriginalPriceOfThreeDigits()}</span></p>
                 <p className="text-green-600 font-bold"> Price : $ {product.price}</p>
-                <div className="text-green-500 font-sans inline">{getRandomDiscount()}% Off<p className="text-blue-800 inline  italic font-bold text-sm"><img src="/public/icons8-flipkart-100.png" alt="def" className="w-7 h-7 inline ml-1" /> Assured</p></div>
+                <div className="text-green-500 font-sans inline">{getRandomDiscount()}% Off<p className="text-blue-800 inline  italic font-bold text-sm"><img src="/icons8-flipkart-100.png" alt="def" className="w-7 h-7 inline ml-1" /> Assured</p></div>
               </div>
             </Link>
           </div>

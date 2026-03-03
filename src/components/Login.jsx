@@ -34,7 +34,7 @@ export default function Login({getUserStatus}) {
     </div>
    
     <div className="mt-4">
-      <p className="text-blue-800 inline  italic font-bold text-sm"> Flipkart<img src="/public/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/> Assured</p>    
+      <p className="text-blue-800 inline  italic font-bold text-sm"> Flipkart<img src="/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/> Assured</p>    
       </div>
     </>
   );

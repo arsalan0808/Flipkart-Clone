@@ -3,7 +3,7 @@ import SingleProducts from "./components/SingleProducts";
 import ProductsByCat from "./components/ProductsByCat";
 import { BrowserRouter, Routes, Link, Route } from "react-router-dom";
 import axios from "axios";
-import "./App.css";
+
 import { useState, useEffect } from "react";
 import Login from "./components/Login";
 import User from "./components/User";

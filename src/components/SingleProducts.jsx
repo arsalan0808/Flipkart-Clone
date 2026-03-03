@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./SingleProduct.css";
 import { redirect, useNavigate, useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
@@ -125,7 +124,7 @@ function buynow() {
             <p className=" font-semibold sm:text-xs"> Description : <p className="font-normal inline"> {singleProduct.description}</p></p>
           <p className=" font-semibold sm:text-xs"> Original Price : <p className="font-normal inline text-gray-700 line-through">$ {getRandomOriginalPriceOfThreeDigits()}</p></p>  
             <p className=" font-semibold sm:text-xs"> Price : <p className="font-normal inline">$ {singleProduct.price}</p></p>
-             <div className="text-green-500 font-sans inline">{getRandomDiscount()}% Off<p className="text-blue-800 inline  italic font-bold text-sm"><img src="/public/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/>Assured</p></div>
+             <div className="text-green-500 font-sans inline">{getRandomDiscount()}% Off<p className="text-blue-800 inline  italic font-bold text-sm"><img src="/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/>Assured</p></div>
             <Link to={`/productbycat/${singleProduct.category}`}>
               <p className=" font-semibold sm:text-xs">Category : <p className="font-normal inline"> {singleProduct.category} <p className=" underline text-green-600">Click here to view similar products</p></p></p>
             </Link>
@@ -140,7 +139,7 @@ function buynow() {
     </>  )}
     
      <div className="mt-4">
-      <p className="text-blue-800 inline  italic font-bold text-sm"> Flipkart<img src="/public/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/> Assured</p>    
+      <p className="text-blue-800 inline  italic font-bold text-sm"> Flipkart<img src="/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/> Assured</p>    
       </div>
     </div>
     

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import "./Home.css";
 import Footer from "./Footer";
 
 export default function Home({ getRandomOriginalPriceOfThreeDigits}) {
@@ -132,7 +131,7 @@ export default function Home({ getRandomOriginalPriceOfThreeDigits}) {
                 {/* flipkart product top left heart icon */}
                 <div className="w-full flex justify-end">
                   <img
-                    src="/public/hearts.png"
+                    src="/hearts.png"
                     alt="wishlist"
                     className="w-5 h-5 opacity-50 hover:opacity-100 transition-opacity duration-300 cursor-pointer"
                   />
