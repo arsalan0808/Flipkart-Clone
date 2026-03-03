@@ -80,7 +80,7 @@ export default function User() {
         users.map((user)=>(
           <>
           <div className="border border-gray-300 rounded-lg shadow-md p-4 mb-4" >
-            <p className="text-blue-800 inline  italic font-bold text-sm">Flipkart<img src="/public/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/>Assured Users</p>
+            <p className="text-blue-800 inline  italic font-bold text-sm">Flipkart<img src="/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/>Assured Users</p>
             <div className="font-semibold"> Username : {user.username}</div>
             <div className="font-semibold"> ID : {user.id}</div>
             <div className="font-semibold"> Email : {user.email}</div>
@@ -92,7 +92,7 @@ export default function User() {
       }
     
      <div className="mt-4">
-      <p className="text-blue-800 inline  italic font-bold text-sm"> Flipkart<img src="/public/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/> Assured</p>    
+      <p className="text-blue-800 inline  italic font-bold text-sm"> Flipkart<img src="/icons8-flipkart-100.png"  className="w-7 h-7 inline ml-1" alt="abc"/> Assured</p>    
       </div>
   </div>);
 }
